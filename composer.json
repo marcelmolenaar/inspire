@@ -1,0 +1,17 @@
+{
+    "name": "fhsinchy/inspire",
+    "autoload": {
+        "psr-4": {
+            "Fhsinchy\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcel Molenaar",
+            "email": "info@mediaquest.nl"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
