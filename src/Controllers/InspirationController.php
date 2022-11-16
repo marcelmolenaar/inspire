@@ -7,7 +7,7 @@ use Fhsinchy\Inspire\Inspire;
 class InspirationController
 {
     public function __invoke(Inspire $inspire) {
-        $quote = $inspire->justDoIt();
+        $quote = $inspire->justDoIt().'test mamo';
 
         return view('inspire::index', compact('quote'));
     }
